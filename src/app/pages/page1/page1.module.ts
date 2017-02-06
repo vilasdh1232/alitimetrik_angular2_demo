@@ -1,6 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { DashboardComponent} from './dashboard.component';
-import { LoginComponent} from './login.component';
+import { Page1Component} from './page1.component';
 import { routing } from './../../app.routs';
 
 @NgModule({
@@ -8,11 +8,11 @@ import { routing } from './../../app.routs';
         routing
 
     ],
-    declarations: [DashboardComponent, LoginComponent],
+    declarations: [DashboardComponent, Page1Component],
     exports: [
         DashboardComponent,
-        LoginComponent
+        Page1Component
     ]
 })
 
-export class UserModule { }
+export class Page1Module { }

@@ -1,22 +1,18 @@
-import { ModuleWithProviders }  from '@angular/core';
+import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LoginComponent } from './pages/user/login.component';
-import { DashboardComponent } from './pages/user/dashboard.component';
+import { Page1Component } from './pages/page1/page1.component';
+import { DashboardComponent } from './pages/page1/dashboard.component';
 
 const appRoutes: Routes = [
-   
+
     {
         path: 'dashboard',
-        component: DashboardComponent 
-    },
-    {
-        path: 'user',
-        component: LoginComponent 
+        component: DashboardComponent
     },
     {
         path: 'page1',
-        component: DashboardComponent 
+        component: Page1Component
     },
     {
         path: '',

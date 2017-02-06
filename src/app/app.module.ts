@@ -6,7 +6,7 @@ import { Router, ActivatedRoute, Params, NavigationStart } from '@angular/router
 
 import { AppComponent }   from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { UserModule } from './pages/user/user.module';
+import { Page1Module } from './pages/page1/page1.module';
 
 
 import { routing } from './app.routs';
@@ -18,11 +18,11 @@ import { AppConfig } from './config/app.config';
 @NgModule({
   imports:      [ 
     SharedModule,
-    UserModule,
+    Page1Module,
     BrowserModule, 
     FormsModule, 
     HttpModule,
-    routing  
+    routing
   ],
   declarations: [ 
     AppComponent   

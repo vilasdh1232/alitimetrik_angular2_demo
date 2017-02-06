@@ -2,25 +2,19 @@ import { Component } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
-  selector: 'login',
-  templateUrl: './html/login.component.html',
+  selector: 'page1',
+  templateUrl: './html/page1.component.html',
   styleUrls: ['./css/login.css']
 })
 
-export class LoginComponent { 
-  user:any = {
-    user_name: '',
-    password: ''
-  };  
+export class Page1Component { 
+ 
 
   constructor(
     private router: Router
   ) {}
 
-  login(user:any) {
-    var self = this;
-   
-  }
+ 
 
   ngOnInit() {
     // Properties are resolved and things like
